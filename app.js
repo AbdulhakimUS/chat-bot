@@ -147,6 +147,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function getBotReply(message) {
         message = message.toLowerCase();
         const result = fuse.search(message);
-        return result.length > 0 ? result[0].item.a : "Я пока не знаю, что ответить...";
+        return result.length > 0 ? result[0].item.a : "...";
     }
 });
